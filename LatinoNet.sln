@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface Adapters", "Inter
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks And Drivers", "Frameworks And Drivers", "{2F1C1FA1-BD90-445E-9089-2A3BA34FB4C7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{0EF8E39A-955B-4E3D-98AE-99669031203A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinoNet.RepositoryEFCore", "LatinoNet.RepositoryEFCore\LatinoNet.RepositoryEFCore.csproj", "{908F4C44-061B-4DD4-8E00-D32E43512D4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,14 @@ Global
 		{4EE0FB74-2EF8-4354-BD22-EB0B53C66368}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EE0FB74-2EF8-4354-BD22-EB0B53C66368}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EE0FB74-2EF8-4354-BD22-EB0B53C66368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908F4C44-061B-4DD4-8E00-D32E43512D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908F4C44-061B-4DD4-8E00-D32E43512D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908F4C44-061B-4DD4-8E00-D32E43512D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908F4C44-061B-4DD4-8E00-D32E43512D4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4EE0FB74-2EF8-4354-BD22-EB0B53C66368} = {1F5952EE-550B-4AC9-9E4B-E68BC33D9F50}
+		{0EF8E39A-955B-4E3D-98AE-99669031203A} = {B5055DEE-E075-43D0-9C1B-FC1B3F15856D}
+		{908F4C44-061B-4DD4-8E00-D32E43512D4B} = {0EF8E39A-955B-4E3D-98AE-99669031203A}
 	EndGlobalSection
 EndGlobal
